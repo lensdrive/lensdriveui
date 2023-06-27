@@ -1,0 +1,151 @@
+.Recharge{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F7F8FA;
+  .container{
+    width:98%;
+    height: 95%;
+
+
+    .Recharge_home{
+      max-width: 600px;
+      display: flex;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 0.1px #e8e8e8;
+      width: 100%;
+      margin: 10px auto;
+      flex-direction: column;
+      ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        li{
+          margin-bottom: 10px;
+        }
+      }
+      input{
+        height: 40px;
+      }
+      .NumberP{
+        margin: 15px 0px 20px;
+        font-size: 15px;
+        a{
+          display: inline-block;
+          font-size: 16px;
+        }
+      }
+      .RechargeP{
+        margin-bottom: 10px;
+        font-size: 15px;
+        a{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+// @media (min-width: 0px) and (max-width: 660px) {
+  .Recharge{
+    .HeaderPage{
+      .Files{
+        color: #40a9ff !important;
+      }
+      .Top{
+        color: #86909c ;
+      }
+    }
+    .TabBarPage{
+      .Top{
+        color: #40a9ff !important;
+      }
+    }
+    background-color: #F7F8FA;
+    width: 100vw;
+    min-height: 100vh;
+    .container .Home .ant-table-wrapper {
+      display: none;
+    }
+
+    .container {
+      width: 100%;
+      align-items: center;
+
+      .Home {
+        margin-bottom: 20px;
+        .ant-table{
+          table{
+            border: 1px solid #e4e4e7;
+          }
+        }
+      }
+    }
+
+    .HeaderPage {
+      width: 100%;
+
+      .head {
+
+        .container {
+          width: 100%;
+          background-color: #fff;
+        }
+
+        box-shadow: 0px;
+
+
+
+      }
+
+    }
+    .Recharge_home{
+      padding: 35px 20px;
+      .primary{
+        width: 100%;
+        height: 45px;
+        background-color: #6191FF;
+      }
+      .Number{
+        width: 100%;
+      }
+      .blurMoney{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .goldList{
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        button{
+          padding: 20px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          span{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+// }
+@media (min-width: 0px) and (max-width: 660px) {
+  .Recharge{
+    .container{
+      .Recharge_home{
+        margin: 10px 15px;
+      }
+    }
+  }
+  .HeaderPage .head .container .head-left{
+
+    ul{
+      display: none;
+    }
+  }
+}

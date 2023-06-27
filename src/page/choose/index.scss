@@ -1,0 +1,109 @@
+
+    .Choose{
+      background-color: #F7F8FA;
+      height: 100vh;
+      width: 100vw;
+      .HeaderPage{
+        .container{
+          width: 100%;
+          .head-right{
+            button{
+              display: none;
+            }
+            .walletAccount{
+              display: none;
+            }
+            .Languag{
+              border-radius: 50px;
+            }
+          }
+        }
+      }
+    }
+
+      .Choose{
+        .chain{
+
+        .container{
+          padding: 10px 20px 10px 20px;
+          width: 1000px;
+          flex-direction: column;
+          align-items: flex-start;
+          h1{
+            margin-top: 50px;
+            font-size: 35px;
+          }
+          h3{
+            font-size: 20px;
+          }
+          .Choose_chain{
+            width: 100%;
+            margin-top: 30px;
+            ul{
+              display: flex;
+              justify-content: space-between;
+              li{
+                cursor: pointer;
+                padding: 40px 40px;
+                display: flex;
+                background-color: #fff;
+                align-items: center;
+                width: 47%;
+                h3{
+                  font-size: 25px;
+                  font-weight: 600;
+                  margin: 0px 0px 5px 0px;
+                }
+                p{
+                  margin: 0px;
+                  font-size: 16px;
+                  font-weight: 500;
+                  color: #565656;
+                }
+                .Choose_img{
+                  margin-right: 30px;
+                  background-color: #F4F6F9;
+                  padding: 15px 15px;
+                  border-radius: 50%;
+                  user-select: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  @media (min-width: 660px) and (max-width: 1000px) {
+    .Choose{
+      .chain{
+
+      .container{
+        width: 100%;
+      }
+    }
+  }
+  }
+  @media (min-width: 0px) and (max-width: 660px)  {
+    .Choose{
+      .container{
+        width: 100%;
+        padding: 10px 20px 10px 20px;
+      }
+      .chain{
+        .container{
+          width: 100%;
+          .Choose_chain{
+            ul{
+              flex-direction: column;
+              li{
+
+                width: 100%;
+                margin-top: 10px;
+                padding: 40px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

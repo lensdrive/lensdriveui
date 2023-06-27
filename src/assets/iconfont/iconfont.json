@@ -1,0 +1,58 @@
+{
+  "id": "3813473",
+  "name": "wallet",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31310820",
+      "name": "中英文切换-英文",
+      "font_class": "zhongyingwenqiehuan-yingwen",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "31310821",
+      "name": "中英文切换-中文",
+      "font_class": "zhongyingwenqiehuan-zhongwen",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "4143522",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15550459",
+      "name": "copy-template",
+      "font_class": "copy-template",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "18171184",
+      "name": "链接,断开",
+      "font_class": "link-off",
+      "unicode": "ea24",
+      "unicode_decimal": 59940
+    },
+    {
+      "icon_id": "253572",
+      "name": "手机充值",
+      "font_class": "shoujichongzhi",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "22380479",
+      "name": "为空",
+      "font_class": "weikong",
+      "unicode": "eda3",
+      "unicode_decimal": 60835
+    }
+  ]
+}

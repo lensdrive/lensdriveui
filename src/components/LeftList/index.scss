@@ -1,0 +1,200 @@
+.LeftList{
+  width: 430px;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+  // 右边组件头部
+  .LeftListHead{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .LeftList_Avatar{
+      margin-bottom: 40px;
+    }
+    .LeftList_handle{
+      font-size: 16px;
+      color: #208311;
+      font-family: 'Roboto-regular';
+    }
+    .LeftList_Name{
+      font-weight: 600;
+      font-size: 30px;
+      line-height: normal;
+      margin-bottom: 10px;
+    }
+    .LeftList_p{
+      margin-bottom: 25px;
+    }
+    .LeftList_bio{
+      width: 100%;
+      margin: 34px 0px;
+      font-size: 16px;
+      font-family: 'Roboto-regular';
+    }
+    .LeftList_lenster{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      font-size: 16px;
+      img{
+        margin-right: 8px;
+      }
+    }
+    .LeftList_lenster{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      font-size: 16px;
+      img{
+        margin-right: 8px;
+      }
+    }
+    .LeftList_wallet{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      font-size: 16px;
+      margin-bottom: 40px;
+      font-family: 'Roboto-regular';
+      img{
+        margin-right: 8px;
+      }
+    }
+    .LeftList_Progress{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: rgba(82, 82, 91, 1);
+      font-size: 14px;
+      span{
+        font-family: 'Roboto-regular';
+      }
+    }
+    .LeftList_profile{
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      font-family: 'Roboto-regular';
+      img{
+        margin-right: 8px;
+      }
+      width: 100%;
+    }
+    .LeftList_address{
+      display: flex;
+      align-items: flex-start;
+      font-size: 16px;
+      margin: 15px 0px; 
+      font-family: 'Roboto-regular';
+      word-break: break-all;   
+      img{
+        margin-right: 8px;
+      }  
+    }
+    .ant-progress-show-info .ant-progress-outer{
+      padding-right: 0px;
+      margin-right:0px;
+    }
+    .ant-progress-inner{
+      height: 12px;
+    }
+    .ant-progress-success-bg, .ant-progress-bg{
+      height: 12px !important;
+    }
+    .ant-progress-line{
+      width: 100% !important;
+    }
+    .ant-progress{
+      flex-direction: column;
+    }
+    .ant-progress-inner{
+      background-color: rgba(228, 228, 231, 1);
+    }
+    .ant-progress-success-bg, .ant-progress-bg{
+      background-color: #389220;
+    }
+  }
+  // 横线
+  .LeftListBox{
+    box-shadow: 0 0 10px 0.1px #fff;
+    height: 1px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgba(228, 228, 231, 1);
+  }
+    // 右边组件底部
+  .LeftListBottom{
+    width: 100%;
+    margin-top: 40px;
+    ul{
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .LeftListBottomLensdrive{
+        font-family: 'Roboto';
+        color: rgba(113, 113, 122, 1);
+      }
+      li{
+        color: #000;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Roboto-regular';
+        .Languag{
+          div{
+            font-family: 'Roboto-regular';
+          }
+        }
+        a{
+          color: #000;
+          font-weight: 500;
+          font-family: 'Roboto-regular';
+        }
+      }
+      .LeftListLanguage{
+        display: flex;
+        align-items: center;
+      }
+    }
+
+  }
+}
+@media (min-width: 0px) and (max-width: 660px){
+  .LeftList{
+    width: 100%;
+    .LeftListHead{
+      .LeftList_Avatar{
+        margin-bottom: 10px;
+      }
+      .LeftList_Name{
+        margin-bottom: 5px;
+      }
+      .LeftList_bio{
+        margin: 20px 0px;
+      }
+      .LeftList_address{
+        margin: 8px 0px;
+      }
+      .LeftList_wallet{
+        margin-bottom: 20px;
+      }
+      .LeftListBottom{
+        margin-top: 20px;
+      }
+    }
+    .LeftListBox{
+      margin-top: 20px;
+    }
+    .LeftListBottom{
+      margin-top: 20px;
+    }
+  }
+  .Home{
+    
+  }
+
+}

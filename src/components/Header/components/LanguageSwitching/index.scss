@@ -1,0 +1,23 @@
+.Languag{
+  // background-color: #6191FF;
+  padding: 0px 0px;
+  .Dropdown{
+    border-radius: 5px;
+  }
+  .iconfont{
+    font-size: 40px;
+    color: #208311  ;
+    cursor: pointer;
+  }
+
+  .Languag_i18n{
+    display: flex;
+    align-items: center;
+    img{
+      margin-right: 5px;
+    }
+    a{
+      font-family: 'Roboto-regular';
+    }
+  }
+}

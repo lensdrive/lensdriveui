@@ -1,0 +1,26 @@
+
+@media (min-width: 0px) and (max-width: 660px){
+  .TabBarPage {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width:100%;
+  .container{
+    width: 90% !important;
+    align-items: center;
+    padding: 10px 0px;
+    button{
+      width: 33%;
+      color: #000;
+      text-align: center;
+      border: 0px;
+      box-shadow: 0px 0px 0px 0px;
+    }
+    }
+  }
+}
+@media (min-width: 660px){
+  .TabBarPage{
+    display: none;
+  }
+}

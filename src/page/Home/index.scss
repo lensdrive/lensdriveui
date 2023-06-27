@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Muli';
+  src: url('../../assets/iconfont/ifont.ttf');
+  font-weight: 600;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../../assets/fontLibrary/Roboto.woff');
+font-weight: 600;
+}
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url('../../assets/fontLibrary/Roboto-regular.woff');
+  font-weight: 600;
+  }
+@font-face {
+    font-family: 'SourceHanSansSC-regular';
+    src: url('../../assets/fontLibrary/SourceHanSansSC-regular.woff');
+    font-weight: 600;
+}
+.HomePage .container .Home .Home_button button{
+  background-color: #389220 ;
+  color: #fff ;
+}
+.HomePage .container .Home .Home_button .ant-btn-primary[disabled]{
+  color:#F7F8FA;
+}
+.ant-table-tbody > tr > td{
+  font-family: 'Roboto-regular';
+}
+.ant-upload{
+  button{
+    border: 1px solid #208311;
+  }
+  .ant-btn:hover , .ant-btn:focus{
+    background-color: #506BDB 100%;
+    color: #000;
+    border: 1px solid #208311;
+  }
+}
+@media (min-width: 0px) and (max-width: 660px) {
+
+  .ant-table-tbody > tr.ant-table-row:hover > td, .ant-table-tbody > tr > td.ant-table-cell-row-hover{
+    background: #fafafa !important;
+  }
+ 
+    .WalletModification{
+      padding: 40px 0px 30px;
+    }
+
+    .ant-modal-body{
+      padding:24px 20px !important;
+
+    }
+    .HomePage {
+      position: relative;
+      background-color: #F7F8FA;
+      width: 100vw;
+      min-height: 100vh;
+      .container .Home .ant-table-wrapper {
+        display: none;
+      }
+      .container {
+        width: 90%;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        .Home {
+          margin-bottom: 20px;
+          width: 100%;
+          .Home_button{
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            z-index: 10;
+            padding: 30px 0px;
+            background-color: #fff;
+            left: 0;
+            display: flex;
+            z-index: 10;
+            justify-content: center;
+            align-items: center;
+            button{
+              position: absolute;
+              width: 90%;
+              border: 0px solid ;
+              padding: 0px;
+              margin: 0px;
+            }
+          }
+        }
+      }
+      .TabBarPage{
+        .container{
+          justify-content: space-between;
+          .Files{
+            span{
+              color: #40a9ff !important;
+            }
+          }
+        }
+      }
+      .HeaderPage {
+        width: 100%;
+        .head {
+          .container {
+            width: 100% ;
+            background-color: #fff;
+            min-width: 100%;
+            padding: 10px 20px;
+          }
+          box-shadow: 0px;
+
+        }
+      } 
+      .ant-tooltip-inner{
+        font-size: 14px;
+      }
+      .Mobile_terminal {
+        div{
+          width: 100%;
+          .ant-btn-primary{
+            background: rgb(56, 146, 32);
+            border: 0px;
+            color: #fff;
+            border-radius: 20px;
+            float: right;
+          }
+        }
+
+        padding-bottom: 40px;
+        .container {
+          justify-content: flex-start;
+          flex-direction: column;
+          .Mobile {
+            width: 100%;
+            padding: 15px;
+            background-color: #fff;
+            margin-bottom: 16px;
+            .Mobile_file {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              p{
+                font-size: 14px;
+                font-family: 'Roboto-regular';
+                
+                &:nth-of-type(1){
+                  color: #71717a;
+                }
+                span{
+                  font-size:14px;
+                  font-family: 'Roboto-regular'; 
+                }
+              }
+              div {
+                margin-bottom: 20px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+        .Mobile_termina{
+          display: flex;
+            .iconfont {
+              font-size: 60px;
+              color: #DEDEDE;
+            }
+            p{
+              font-size: 28px;
+              color: #DEDEDE;
+            }
+            span{
+              font-size: 16px;
+              color: #DEDEDE;
+              cursor: pointer;
+            }
+          }
+      }
+    }
+  }
+  .antModalFooter{
+    .ant-modal-footer {
+      border-top: 0px;
+    }
+    .handleUpd[disabled] {
+      color: #e8e8e896 !important;
+    }
+  } 
+  .ant-modal-footer {
+    .ant-btn{
+      span{
+        font-family: 'Roboto-regular';
+      }
+      
+    }
+  }
+  @media screen and (min-width: 660px) {
+
+  .ObtainImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+      font-family: 'Roboto-regular';
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .ObtainImageName{
+      margin: 10px 0px 0px 5px;
+      cursor:pointer;
+    }  
+  }
+.ant-table-expanded-row-fixed{
+  min-height: 65vh;
+}
+.ant-table-wrapper{
+  min-height: 65vh;
+}
+    .Mobile_terminal {
+      display: none;
+    }
+    .HomePage {
+      .HeaderPage{
+        .Top{
+          color: #40a9ff !important;
+        }
+
+      }
+      background-color: #F7F8FA;
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .container {
+        min-width: 1340px;
+        height: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        .Home {
+          height: 96%;
+          padding: 20px 20px;
+          width: 100%;
+          .ant-table-cell .ant-table-column-sort .ant-table-cell-row-hover{
+            background-color: #FAFAFA;
+          }
+          .ant-pagination-prev .ant-pagination-item-link,.ant-pagination-next .ant-pagination-item-link{
+            border: 0px;
+          }
+          .ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link{
+            border: 0px;
+            color: #389220;
+           }
+           .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link{
+            background-color:transparent;
+           }
+           .ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link{
+            color: rgba(0, 0, 0, 0.25)!important;
+            border-color: #d9d9d9!important;
+           }
+           .ant-btn-dashed:hover, .ant-btn-dashed:focus{
+            color: #389220; 
+            border-color: #389220;
+          }
+          .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+            background-color: transparent;
+            border: 0px;
+          }
+          .ant-pagination-item-active{
+            a{
+              color: #389220;
+            }
+          }
+          .ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+          .ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector{
+            border-color: #389220;
+            box-shadow:0 0 0 0 transparent;
+          }
+          .ant-select-item-option-selected:not(.ant-select-item-option-disabled){
+            background-color:#39922059;
+          }
+          .ant-pagination-item{
+            background-color: transparent;
+            border: 0px;
+            a{
+              font-family: 'Roboto-regular';
+              &:hover{
+                color: #389220;
+              }
+            }
+          }
+          .Home_button {
+            margin-bottom: 20px;
+            display: flex;
+            width: 100%;
+            flex-direction: row-reverse;
+
+            button{
+              border: 0px;
+            }
+          }
+          .ant-table-tbody>tr.ant-table-row:hover>td, .ant-table-tbody>tr>td.ant-table-cell-row-hover{
+            background: #fafafa !important;
+          }
+          .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+            border: 0px;
+            width: 0px;
+          }
+          .ant-table-content{
+            border: 1px solid #e4e4e7;
+          .ant-table-thead {
+            background-color: #506BDB;
+            tr {
+              th {
+                font-weight: 600;
+                color: #76767F;
+                background-color: #F4F4F5;
+                .ant-table-column-sorter-up.active, .ant-table-column-sorter-down.active{
+                  color: #389220;
+                }
+              }
+            }
+          }
+
+          .ant-table-tbody > tr > td{
+            border: 0px;
+          }   
+        }
+        }
+      }
+    }
+  }
+
+  @media (min-width:660px) and (max-width: 1300px) {
+    .HomePage .container{
+      min-width: 100%;
+      
+    }
+  }
+  .item-fileInfo {
+    margin-top: 14px;
+    p {
+      margin: 10px 0 0;
+      font-size: 16px;
+    }
+  }
+  .reacher-hint {
+    margin: 12px 0 0;
+    color: rgba(248, 79, 72, 1);
+    font-size: 16px;
+  }
+  td.ant-table-column-sort{
+    background-color: #fff !important;
+  }
